@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="sectionHeaderCell" id="U6b-Vx-4bR" customClass="CollectionReusableView" customModule="ITCamp2018" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b5N-bS-co9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GgQ-9E-NBA">
+                            <rect key="frame" x="20" y="11" width="280" height="28"/>
+                            <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="22"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.794921875" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="7aj-rb-s4T"/>
+                        <constraint firstAttribute="width" constant="320" id="DPk-pZ-Lai"/>
+                        <constraint firstItem="GgQ-9E-NBA" firstAttribute="top" secondItem="b5N-bS-co9" secondAttribute="top" constant="11" id="fBO-1u-9mJ"/>
+                        <constraint firstAttribute="trailing" secondItem="GgQ-9E-NBA" secondAttribute="trailing" constant="20" id="iIC-w1-Fsc"/>
+                        <constraint firstItem="GgQ-9E-NBA" firstAttribute="leading" secondItem="b5N-bS-co9" secondAttribute="leading" constant="20" id="kSt-vB-E8u"/>
+                        <constraint firstAttribute="bottom" secondItem="GgQ-9E-NBA" secondAttribute="bottom" constant="11" id="rFV-Rh-XOS"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="b5N-bS-co9" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="5ge-VE-jfM"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="b5N-bS-co9" secondAttribute="trailing" id="Mya-8H-9cg"/>
+                <constraint firstItem="b5N-bS-co9" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="UfQ-iM-rvS"/>
+                <constraint firstAttribute="bottom" secondItem="b5N-bS-co9" secondAttribute="bottom" id="nc5-oe-BaW"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <connections>
+                <outlet property="headerText" destination="GgQ-9E-NBA" id="StN-R3-MZI"/>
+                <outlet property="headerWidth" destination="DPk-pZ-Lai" id="mIN-PI-shb"/>
+            </connections>
+        </collectionReusableView>
+    </objects>
+</document>

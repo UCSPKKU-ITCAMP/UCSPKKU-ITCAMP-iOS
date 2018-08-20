@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="scheduleCell" id="gTV-IL-0wX" customClass="ScheduleCollectionViewCell" customModule="ITCamp2018" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="596" height="101"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="596" height="101"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R7V-vl-hFE">
+                        <rect key="frame" x="91" y="-318" width="414" height="736"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TxD-TO-Fhr" customClass="CardView" customModule="ITCamp2018" customModuleProvider="target">
+                                <rect key="frame" x="20" y="1" width="556" height="99"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oj2-JI-d46">
+                                        <rect key="frame" x="10" y="10" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Jbv-vA-vFm"/>
+                                            <constraint firstAttribute="width" constant="50" id="plw-Rc-q5Z"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Japan Gatone nhint thu ei ser tan ashay gyee myer" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdB-19-lgM">
+                                        <rect key="frame" x="80" y="10" width="466" height="25.5"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="20"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GF9-6W-NIW">
+                                        <rect key="frame" x="80" y="40.5" width="466" height="21.5"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="17"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="8:30 - 9:20 | A-101" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a82-8E-uVr">
+                                        <rect key="frame" x="80" y="67" width="466" height="22"/>
+                                        <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="17"/>
+                                        <color key="textColor" red="0.40784313729999999" green="0.40784313729999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="GF9-6W-NIW" firstAttribute="leading" secondItem="Oj2-JI-d46" secondAttribute="trailing" constant="20" id="1Hy-Na-2l4"/>
+                                    <constraint firstAttribute="trailing" secondItem="a82-8E-uVr" secondAttribute="trailing" constant="10" id="Dp6-JC-hEf"/>
+                                    <constraint firstAttribute="trailing" secondItem="GF9-6W-NIW" secondAttribute="trailing" constant="10" id="Hf5-zB-yLL"/>
+                                    <constraint firstItem="fdB-19-lgM" firstAttribute="leading" secondItem="Oj2-JI-d46" secondAttribute="trailing" constant="20" id="Ne9-E8-ucH"/>
+                                    <constraint firstItem="Oj2-JI-d46" firstAttribute="top" secondItem="TxD-TO-Fhr" secondAttribute="top" constant="10" id="PnR-W4-Gkm"/>
+                                    <constraint firstItem="a82-8E-uVr" firstAttribute="leading" secondItem="GF9-6W-NIW" secondAttribute="leading" id="U5m-iA-BnU"/>
+                                    <constraint firstItem="GF9-6W-NIW" firstAttribute="top" secondItem="fdB-19-lgM" secondAttribute="bottom" constant="5" id="boT-nt-cNs"/>
+                                    <constraint firstAttribute="bottom" secondItem="a82-8E-uVr" secondAttribute="bottom" constant="10" id="cZN-3Q-ieD"/>
+                                    <constraint firstItem="a82-8E-uVr" firstAttribute="top" secondItem="GF9-6W-NIW" secondAttribute="bottom" constant="5" id="fkG-En-HZT"/>
+                                    <constraint firstItem="fdB-19-lgM" firstAttribute="top" secondItem="TxD-TO-Fhr" secondAttribute="top" constant="10" id="o0y-XS-8oZ"/>
+                                    <constraint firstItem="Oj2-JI-d46" firstAttribute="leading" secondItem="TxD-TO-Fhr" secondAttribute="leading" constant="10" id="vMg-la-F4U"/>
+                                    <constraint firstAttribute="trailing" secondItem="fdB-19-lgM" secondAttribute="trailing" constant="10" id="wVj-89-VlF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="596" id="1qQ-p8-5js"/>
+                            <constraint firstItem="TxD-TO-Fhr" firstAttribute="leading" secondItem="R7V-vl-hFE" secondAttribute="leading" constant="20" id="3dZ-O5-dpA"/>
+                            <constraint firstAttribute="bottom" secondItem="TxD-TO-Fhr" secondAttribute="bottom" constant="1" id="lNt-Ac-jgG"/>
+                            <constraint firstItem="TxD-TO-Fhr" firstAttribute="top" secondItem="R7V-vl-hFE" secondAttribute="top" constant="1" id="oeV-Dw-ob2"/>
+                            <constraint firstAttribute="trailing" secondItem="TxD-TO-Fhr" secondAttribute="trailing" constant="20" id="tSG-FC-DHN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lhs-4R-ECs"/>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="596" height="109"/>
+            <point key="canvasLocation" x="214" y="132"/>
+        </collectionViewCell>
+    </objects>
+</document>
