@@ -68,5 +68,5 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 ## info.plist
-ITCamp2018/GoogleService-Info.plist
+**/ITCamp2018/GoogleService-Info.plist
 GoogleService-Info.plist
