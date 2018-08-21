@@ -27,6 +27,7 @@
 		4623358D21005B2000B65231 /* NetworkAgentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623358C21005B2000B65231 /* NetworkAgentProtocol.swift */; };
 		4623358F21005B4700B65231 /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623358E21005B4700B65231 /* NetworkAgent.swift */; };
 		4623359121005E4F00B65231 /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623359021005E4F00B65231 /* Reachibility.swift */; };
+		4635485E212C8F270039634C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635485D212C8F270039634C /* AboutUsViewController.swift */; };
 		464F64C12107830700FEEBEB /* ComingSoonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F64BF2107830700FEEBEB /* ComingSoonCollectionViewCell.swift */; };
 		464F64C22107830700FEEBEB /* ComingSoonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464F64C02107830700FEEBEB /* ComingSoonCollectionViewCell.xib */; };
 		464F64C42107887800FEEBEB /* Pyidaungsu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 464F64C32107887800FEEBEB /* Pyidaungsu-Regular.ttf */; };
@@ -92,6 +93,7 @@
 		4623358C21005B2000B65231 /* NetworkAgentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAgentProtocol.swift; sourceTree = "<group>"; };
 		4623358E21005B4700B65231 /* NetworkAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAgent.swift; sourceTree = "<group>"; };
 		4623359021005E4F00B65231 /* Reachibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+		4635485D212C8F270039634C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		464F64BF2107830700FEEBEB /* ComingSoonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonCollectionViewCell.swift; sourceTree = "<group>"; };
 		464F64C02107830700FEEBEB /* ComingSoonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComingSoonCollectionViewCell.xib; sourceTree = "<group>"; };
 		464F64C32107887800FEEBEB /* Pyidaungsu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pyidaungsu-Regular.ttf"; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				4623352B20FE338900B65231 /* ScheduleViewController.swift */,
 				46AF0CF221060A21001E859F /* SlidesViewController.swift */,
 				464F64CD2107B2EE00FEEBEB /* VideosViewController.swift */,
+				4635485D212C8F270039634C /* AboutUsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -577,6 +580,7 @@
 				4623359121005E4F00B65231 /* Reachibility.swift in Sources */,
 				464F64C12107830700FEEBEB /* ComingSoonCollectionViewCell.swift in Sources */,
 				46AF0CEC21030B32001E859F /* SectionHeaderCollectionViewCell.swift in Sources */,
+				4635485E212C8F270039634C /* AboutUsViewController.swift in Sources */,
 				464F64D12107B49500FEEBEB /* VideosCollectionViewCell.swift in Sources */,
 				46AF0CF7210650C1001E859F /* Slides.swift in Sources */,
 				4623356A20FF76DF00B65231 /* Constants.swift in Sources */,

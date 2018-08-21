@@ -27,7 +27,7 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G44-I9-A6l">
                         <rect key="frame" x="0.0" y="0.0" width="322" height="34"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-Xl-is8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWh-Xl-is8">
                                 <rect key="frame" x="20" y="3" width="282" height="28"/>
                                 <fontDescription key="fontDescription" name="Pyidaungsu-Bold" family="Pyidaungsu" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -38,7 +38,7 @@
                         <constraints>
                             <constraint firstItem="UWh-Xl-is8" firstAttribute="top" secondItem="G44-I9-A6l" secondAttribute="top" constant="3" id="3kU-KP-lr2"/>
                             <constraint firstItem="UWh-Xl-is8" firstAttribute="leading" secondItem="G44-I9-A6l" secondAttribute="leading" constant="20" id="dVy-78-S2S"/>
-                            <constraint firstAttribute="height" constant="34" id="db6-bz-W56"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="db6-bz-W56"/>
                             <constraint firstAttribute="trailing" secondItem="UWh-Xl-is8" secondAttribute="trailing" constant="20" id="miQ-XM-V8d"/>
                             <constraint firstAttribute="width" constant="322" id="t3j-AS-lCr"/>
                             <constraint firstAttribute="bottom" secondItem="UWh-Xl-is8" secondAttribute="bottom" constant="3" id="v8r-sU-aHZ"/>

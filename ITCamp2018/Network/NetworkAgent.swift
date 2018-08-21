@@ -62,13 +62,13 @@ class NetworkAgent : NetworkAgentProtocol {
                                 var speakerData = roomData["speaker"] as! [String: AnyObject]
                                 
                                 roomModel.name = speakerData["name"] as! String
-                                roomModel.position = speakerData["position"] as! String
-                                roomModel.presentation_url = speakerData["presentation_url"] as! String
+                                //roomModel.position = speakerData["position"] as! String
+//                                roomModel.presentation_url = speakerData["presentation_url"] as! String
                                 roomModel.profile_url = speakerData["profile_url"] as! String
                                 roomModel.topic = speakerData["topic"] as! String
-                                roomModel.video_url = speakerData["video_url"] as! String
-                                roomModel.id = speakerData["id"] as! String
-                                roomModel.company = speakerData["company"] as! String
+//                                roomModel.video_url = speakerData["video_url"] as! String
+//                                roomModel.id = speakerData["id"] as! String
+//                                roomModel.company = speakerData["company"] as! String
                                 scheduleModel.rooms.append(roomModel)
 
                             }

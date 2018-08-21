@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mT4-3p-w5X">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -9,17 +9,25 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Pyidaungsu-Bold.ttf">
+            <string>Pyidaungsu-Bold</string>
+        </array>
+        <array key="Pyidaungsu-Regular.ttf">
+            <string>Pyidaungsu</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Videos View Controller-->
         <scene sceneID="vz7-44-yaR">
             <objects>
                 <viewController id="ZFE-AF-VbI" customClass="VideosViewController" customModule="ITCamp2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BOy-L1-36k">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="N03-jg-rnT">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="20" minimumInteritemSpacing="20" id="gMY-Yx-N2J">
                                     <size key="itemSize" width="50" height="50"/>
@@ -50,18 +58,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X10-Xd-NBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2050.4000000000001" y="208.24587706146929"/>
+            <point key="canvasLocation" x="2989.5999999999999" y="208.24587706146929"/>
         </scene>
         <!--Schedule View Controller-->
         <scene sceneID="fbS-1A-dGo">
             <objects>
                 <viewController id="M3i-7O-MkC" customClass="ScheduleViewController" customModule="ITCamp2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4cZ-2q-gAl">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lcO-Il-ODU">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="623"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="X0i-es-Sny">
                                     <size key="itemSize" width="50" height="50"/>
@@ -105,11 +113,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="9lh-Ut-NpR" kind="relationship" relationship="viewControllers" id="tjT-A8-Nd0"/>
+                        <segue destination="ygH-Ex-2H6" kind="relationship" relationship="viewControllers" id="Xyx-9M-Wwd"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Itw-pt-Fer" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="161" y="-123"/>
+            <point key="canvasLocation" x="-303" y="-457"/>
         </scene>
         <!--Schedule-->
         <scene sceneID="V1E-vf-9Dj">
@@ -118,7 +127,7 @@
                     <tabBarItem key="tabBarItem" title="Schedule" image="schedule" id="fCt-OW-c52"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ejb-r7-GKX">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="0.0" green="0.45882352941176469" blue="0.73725490196078436" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" red="0.0" green="0.45882352941176469" blue="0.95686274509803915" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -133,6 +142,61 @@
             </objects>
             <point key="canvasLocation" x="1111.2" y="-457.42128935532236"/>
         </scene>
+        <!--About Us View Controller-->
+        <scene sceneID="Me8-O9-wBn">
+            <objects>
+                <viewController id="laB-Pw-TLj" customClass="AboutUsViewController" customModule="ITCamp2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="D54-1y-2Pj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Qe9-2j-jIB">
+                                <rect key="frame" x="107" y="84" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Mg2-fW-3s6"/>
+                                    <constraint firstAttribute="width" constant="200" id="lqB-yA-lHp"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developed with love for UCSPKKU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2wa-1y-Kr6">
+                                <rect key="frame" x="69.666666666666657" y="292" width="275.33333333333337" height="31.666666666666686"/>
+                                <fontDescription key="fontDescription" name="Pyidaungsu-Bold" family="Pyidaungsu" pointSize="19"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6g-FV-4qQ">
+                                <rect key="frame" x="105.66666666666669" y="331.66666666666669" width="203" height="42"/>
+                                <fontDescription key="fontDescription" name="Pyidaungsu" family="Pyidaungsu" pointSize="19"/>
+                                <state key="normal" title="About UCSPkku IT-Camp"/>
+                                <connections>
+                                    <action selector="openFBPage:" destination="laB-Pw-TLj" eventType="touchUpInside" id="lq7-5e-Rv7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZB-Ew-aai">
+                                <rect key="frame" x="172.33333333333334" y="642" width="69.666666666666657" height="25"/>
+                                <fontDescription key="fontDescription" name="Pyidaungsu-Bold" family="Pyidaungsu" pointSize="15"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549019602" green="0.98431372549019602" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DZB-Ew-aai" firstAttribute="centerX" secondItem="HpV-UC-Nyo" secondAttribute="centerX" id="B3d-Ga-Z8y"/>
+                            <constraint firstItem="HpV-UC-Nyo" firstAttribute="bottom" secondItem="DZB-Ew-aai" secondAttribute="bottom" constant="20" id="ByO-T2-AWL"/>
+                            <constraint firstItem="z6g-FV-4qQ" firstAttribute="centerX" secondItem="HpV-UC-Nyo" secondAttribute="centerX" id="DSs-ag-454"/>
+                            <constraint firstItem="2wa-1y-Kr6" firstAttribute="centerX" secondItem="HpV-UC-Nyo" secondAttribute="centerX" id="I47-sO-nfr"/>
+                            <constraint firstItem="Qe9-2j-jIB" firstAttribute="centerX" secondItem="HpV-UC-Nyo" secondAttribute="centerX" id="Ubc-I1-g1A"/>
+                            <constraint firstItem="2wa-1y-Kr6" firstAttribute="top" secondItem="Qe9-2j-jIB" secondAttribute="bottom" constant="8" id="kIN-h8-IsJ"/>
+                            <constraint firstItem="Qe9-2j-jIB" firstAttribute="top" secondItem="HpV-UC-Nyo" secondAttribute="top" constant="20" id="lyT-Wm-LN2"/>
+                            <constraint firstItem="z6g-FV-4qQ" firstAttribute="top" secondItem="2wa-1y-Kr6" secondAttribute="bottom" constant="8" id="xdL-hi-eXy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HpV-UC-Nyo"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="VLI-9a-QxY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jBB-xg-H1P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="820" y="345.87706146926541"/>
+        </scene>
         <!--Videos-->
         <scene sceneID="UGf-cJ-Cdx">
             <objects>
@@ -140,7 +204,7 @@
                     <tabBarItem key="tabBarItem" title="Videos" image="videos" id="umL-py-5zm"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="FaF-90-wIM">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.18823529411764706" green="0.51372549019607838" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
@@ -151,18 +215,18 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qav-O5-ewQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1111.2" y="208.24587706146929"/>
+            <point key="canvasLocation" x="2284" y="207.34632683658174"/>
         </scene>
         <!--Slides View Controller-->
         <scene sceneID="ifA-CJ-bM9">
             <objects>
                 <viewController id="WZy-tg-VnA" customClass="SlidesViewController" customModule="ITCamp2018" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="AbM-Kk-Vbp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cg5-za-Bem">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
                                 <color key="backgroundColor" red="0.97647058823529409" green="0.97647058823529409" blue="0.98431372549019602" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="WZy-tg-VnA" id="4lJ-6V-jCS"/>
@@ -195,7 +259,7 @@
                     <tabBarItem key="tabBarItem" title="Slides" image="slides" id="Dd8-KG-N4W"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="r4I-Ku-AmO">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.18823529411764706" green="0.51372549019607838" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
@@ -208,8 +272,30 @@
             </objects>
             <point key="canvasLocation" x="645.60000000000002" y="1067.3163418290856"/>
         </scene>
+        <!--About-->
+        <scene sceneID="ErP-A5-TCl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ygH-Ex-2H6" customClass="PagerNavController" customModule="ITCamp2018" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="About" image="about" id="vwn-6v-4SW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CdR-ya-xSa">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.18823529411764706" green="0.51372549019607838" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="laB-Pw-TLj" kind="relationship" relationship="rootViewController" id="g13-1K-KQC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gek-Hz-FMX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-119.2" y="345.87706146926541"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="about" width="25" height="25"/>
+        <image name="placeholder" width="1024" height="1024"/>
         <image name="schedule" width="30" height="30"/>
         <image name="slides" width="25" height="25"/>
         <image name="videos" width="25" height="25"/>
