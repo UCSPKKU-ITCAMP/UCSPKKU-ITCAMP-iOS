@@ -28,6 +28,7 @@
 		4623358F21005B4700B65231 /* NetworkAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623358E21005B4700B65231 /* NetworkAgent.swift */; };
 		4623359121005E4F00B65231 /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4623359021005E4F00B65231 /* Reachibility.swift */; };
 		4635485E212C8F270039634C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4635485D212C8F270039634C /* AboutUsViewController.swift */; };
+		46354860212C98E40039634C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4635485F212C98E30039634C /* GoogleService-Info.plist */; };
 		464F64C12107830700FEEBEB /* ComingSoonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464F64BF2107830700FEEBEB /* ComingSoonCollectionViewCell.swift */; };
 		464F64C22107830700FEEBEB /* ComingSoonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 464F64C02107830700FEEBEB /* ComingSoonCollectionViewCell.xib */; };
 		464F64C42107887800FEEBEB /* Pyidaungsu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 464F64C32107887800FEEBEB /* Pyidaungsu-Regular.ttf */; };
@@ -43,7 +44,6 @@
 		46AF0CF12106069C001E859F /* SlidesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46AF0CEF2106069B001E859F /* SlidesTableViewCell.xib */; };
 		46AF0CF321060A21001E859F /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF0CF221060A21001E859F /* SlidesViewController.swift */; };
 		46AF0CF7210650C1001E859F /* Slides.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AF0CF6210650C1001E859F /* Slides.swift */; };
-		46B8AF2D212B230000582381 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46B8AF2C212B22FF00582381 /* GoogleService-Info.plist */; };
 		4C5C49564CB4980B1ADE6E9A /* Pods_ITCamp2018.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E3F9C56FA2EB41E1862F990 /* Pods_ITCamp2018.framework */; };
 		8C799A10051BF88FE5107C76 /* Pods_ITCamp2018UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8648FBFF384E07DC88D61B70 /* Pods_ITCamp2018UITests.framework */; };
 		DF6C76C2594D23F1F7720492 /* Pods_ITCamp2018Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE2D2A5685D6EBCF1A191601 /* Pods_ITCamp2018Tests.framework */; };
@@ -94,6 +94,7 @@
 		4623358E21005B4700B65231 /* NetworkAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAgent.swift; sourceTree = "<group>"; };
 		4623359021005E4F00B65231 /* Reachibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
 		4635485D212C8F270039634C /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		4635485F212C98E30039634C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		464F64BF2107830700FEEBEB /* ComingSoonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonCollectionViewCell.swift; sourceTree = "<group>"; };
 		464F64C02107830700FEEBEB /* ComingSoonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComingSoonCollectionViewCell.xib; sourceTree = "<group>"; };
 		464F64C32107887800FEEBEB /* Pyidaungsu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pyidaungsu-Regular.ttf"; sourceTree = "<group>"; };
@@ -109,7 +110,6 @@
 		46AF0CEF2106069B001E859F /* SlidesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlidesTableViewCell.xib; sourceTree = "<group>"; };
 		46AF0CF221060A21001E859F /* SlidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
 		46AF0CF6210650C1001E859F /* Slides.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slides.swift; sourceTree = "<group>"; };
-		46B8AF2C212B22FF00582381 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4E3F9C56FA2EB41E1862F990 /* Pods_ITCamp2018.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITCamp2018.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8648FBFF384E07DC88D61B70 /* Pods_ITCamp2018UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ITCamp2018UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95ED98C355FF6B366FAF4F9F /* Pods-ITCamp2018.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ITCamp2018.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ITCamp2018/Pods-ITCamp2018.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,7 +186,7 @@
 				4623353020FE338A00B65231 /* Assets.xcassets */,
 				4623353220FE338A00B65231 /* LaunchScreen.storyboard */,
 				4623353520FE338A00B65231 /* Info.plist */,
-				46B8AF2C212B22FF00582381 /* GoogleService-Info.plist */,
+				4635485F212C98E30039634C /* GoogleService-Info.plist */,
 				4623356920FF76DF00B65231 /* Constants.swift */,
 				4623356B20FF7BC800B65231 /* CardView.swift */,
 			);
@@ -440,7 +440,7 @@
 				464F64D22107B49500FEEBEB /* VideosCollectionViewCell.xib in Resources */,
 				464F64C62107888400FEEBEB /* Pyidaungsu-Bold.ttf in Resources */,
 				4623353120FE338A00B65231 /* Assets.xcassets in Resources */,
-				46B8AF2D212B230000582381 /* GoogleService-Info.plist in Resources */,
+				46354860212C98E40039634C /* GoogleService-Info.plist in Resources */,
 				4623358620FFC37300B65231 /* ScheduleCollectionViewCell.xib in Resources */,
 				464F64C22107830700FEEBEB /* ComingSoonCollectionViewCell.xib in Resources */,
 				464F64C42107887800FEEBEB /* Pyidaungsu-Regular.ttf in Resources */,
@@ -769,7 +769,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.rinda.ucspkkuitcampios;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rinda.ucspkkuitcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -791,7 +791,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.rinda.ucspkkuitcampios;
+				PRODUCT_BUNDLE_IDENTIFIER = co.rinda.ucspkkuitcamp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
